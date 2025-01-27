@@ -37,20 +37,20 @@ class Calculator:
                 print("Thankyou.. Exiting the calculator..Good bye")
                 break
 
-             if choice in [1, 2, 3, 4,5]:
+             if choice in [1, 2, 3, 4, 5]:
                 A = self.get_number("Enter the number..: ")
                 B = self.get_number("Enter the number..: ")
 
-                if choice==  1:
-                    print(f"Result:{self.add(A, B)}")
+                if choice== 1:
+                    print(f" Result:{self.add(A, B)}")
                 elif choice== 2:
-                    print(f"Result:{self.sub(A, B)}")
+                    print(f" Result:{self.sub(A, B)}")
                 elif choice== 3:
-                   print(f"Result:{self.mul(A, B)}")
+                   print(f" Result:{self.mul(A, B)}")
                 elif choice== 4:
-                    print(f"Result:{self.div(A, B)}")
-                elif choice==5:
-                    print(f"Result:{self.percent(A, B):.2f}%")
+                    print(f" Result:{self.div(A, B)}")
+                elif choice== 5:
+                    print(f" Result:{self.percent(A, B):.2f}%")
              else:
                     print("Invalid choice")
 
